@@ -15,6 +15,12 @@
 		C04FB7891BDCC9C00014DF79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04FB7871BDCC9C00014DF79 /* LaunchScreen.storyboard */; };
 		C04FB7941BDCC9C00014DF79 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FB7931BDCC9C00014DF79 /* _________Tests.m */; };
 		C04FB79F1BDCC9C00014DF79 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FB79E1BDCC9C00014DF79 /* _________UITests.m */; };
+		C04FB7AE1BDCCA370014DF79 /* UIScrollView+footerFresh.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FB7AD1BDCCA370014DF79 /* UIScrollView+footerFresh.m */; settings = {ASSET_TAGS = (); }; };
+		C04FB7B11BDCCF070014DF79 /* RefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FB7B01BDCCF070014DF79 /* RefreshBaseView.m */; settings = {ASSET_TAGS = (); }; };
+		C04FB7B41BDCCF630014DF79 /* RefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FB7B31BDCCF630014DF79 /* RefreshFooterView.m */; settings = {ASSET_TAGS = (); }; };
+		C04FB7B71BDCDDFD0014DF79 /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FB7B61BDCDDFD0014DF79 /* UIScrollView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		C04FB7BA1BDCDE980014DF79 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FB7B91BDCDE980014DF79 /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		C04FB7BD1BDCDEFD0014DF79 /* RefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = C04FB7BC1BDCDEFD0014DF79 /* RefreshConst.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		C04FB79A1BDCC9C00014DF79 /* 上拉刷新的原理变化UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "上拉刷新的原理变化UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04FB79E1BDCC9C00014DF79 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		C04FB7A01BDCC9C00014DF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04FB7AC1BDCCA370014DF79 /* UIScrollView+footerFresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+footerFresh.h"; sourceTree = "<group>"; };
+		C04FB7AD1BDCCA370014DF79 /* UIScrollView+footerFresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+footerFresh.m"; sourceTree = "<group>"; };
+		C04FB7AF1BDCCF070014DF79 /* RefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshBaseView.h; sourceTree = "<group>"; };
+		C04FB7B01BDCCF070014DF79 /* RefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshBaseView.m; sourceTree = "<group>"; };
+		C04FB7B21BDCCF630014DF79 /* RefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshFooterView.h; sourceTree = "<group>"; };
+		C04FB7B31BDCCF630014DF79 /* RefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshFooterView.m; sourceTree = "<group>"; };
+		C04FB7B51BDCDDFD0014DF79 /* UIScrollView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Extension.h"; sourceTree = "<group>"; };
+		C04FB7B61BDCDDFD0014DF79 /* UIScrollView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Extension.m"; sourceTree = "<group>"; };
+		C04FB7B81BDCDE980014DF79 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C04FB7B91BDCDE980014DF79 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C04FB7BB1BDCDEFD0014DF79 /* RefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshConst.h; sourceTree = "<group>"; };
+		C04FB7BC1BDCDEFD0014DF79 /* RefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshConst.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,12 @@
 		C04FB7781BDCC9C00014DF79 /* 上拉刷新的原理变化 */ = {
 			isa = PBXGroup;
 			children = (
+				C04FB7BB1BDCDEFD0014DF79 /* RefreshConst.h */,
+				C04FB7BC1BDCDEFD0014DF79 /* RefreshConst.m */,
+				C04FB7B81BDCDE980014DF79 /* UIView+Extension.h */,
+				C04FB7B91BDCDE980014DF79 /* UIView+Extension.m */,
+				C04FB7B51BDCDDFD0014DF79 /* UIScrollView+Extension.h */,
+				C04FB7B61BDCDDFD0014DF79 /* UIScrollView+Extension.m */,
 				C04FB77C1BDCC9C00014DF79 /* AppDelegate.h */,
 				C04FB77D1BDCC9C00014DF79 /* AppDelegate.m */,
 				C04FB77F1BDCC9C00014DF79 /* ViewController.h */,
@@ -110,6 +134,12 @@
 				C04FB7871BDCC9C00014DF79 /* LaunchScreen.storyboard */,
 				C04FB78A1BDCC9C00014DF79 /* Info.plist */,
 				C04FB7791BDCC9C00014DF79 /* Supporting Files */,
+				C04FB7AC1BDCCA370014DF79 /* UIScrollView+footerFresh.h */,
+				C04FB7AD1BDCCA370014DF79 /* UIScrollView+footerFresh.m */,
+				C04FB7AF1BDCCF070014DF79 /* RefreshBaseView.h */,
+				C04FB7B01BDCCF070014DF79 /* RefreshBaseView.m */,
+				C04FB7B21BDCCF630014DF79 /* RefreshFooterView.h */,
+				C04FB7B31BDCCF630014DF79 /* RefreshFooterView.m */,
 			);
 			path = "上拉刷新的原理变化";
 			sourceTree = "<group>";
@@ -270,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04FB7B11BDCCF070014DF79 /* RefreshBaseView.m in Sources */,
+				C04FB7B71BDCDDFD0014DF79 /* UIScrollView+Extension.m in Sources */,
 				C04FB7811BDCC9C00014DF79 /* ViewController.m in Sources */,
 				C04FB77E1BDCC9C00014DF79 /* AppDelegate.m in Sources */,
+				C04FB7B41BDCCF630014DF79 /* RefreshFooterView.m in Sources */,
 				C04FB77B1BDCC9C00014DF79 /* main.m in Sources */,
+				C04FB7BA1BDCDE980014DF79 /* UIView+Extension.m in Sources */,
+				C04FB7AE1BDCCA370014DF79 /* UIScrollView+footerFresh.m in Sources */,
+				C04FB7BD1BDCDEFD0014DF79 /* RefreshConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
